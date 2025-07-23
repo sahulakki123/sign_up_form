@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+<body>
+
+ <div class="signup-container">
+    <form>
+      <h2>Sign Up</h2>
+
+      <p id="errname"></p>
+      <input type="text" id="name" placeholder="Full Name" required>
+
+      <p id="errnum"></p>
+      <input type="text" id="num" placeholder="Enter the phone number" required>
+      
+      <p id="erremail"></p>
+      <input type="email" id="email" placeholder="Email Address" required>
+
+      <p id="errpass"></p>
+      <input type="pass" id="pass" placeholder="Password" required>
+
+      <p id="errcpass"></p>
+      <input type="cpass" id="cpass" placeholder="Confirm Password" required>
+
+      <input type="Submit" value="Submit" class="submit" onclick="return signup()">
+    </form>
+  </div>
+
+    <script src="sign.js"></script>
+</body>
+</html>
