@@ -13,6 +13,13 @@ let signup=()=>{
     let errcpass = document.querySelector("#errcpass")
 
 
+      errname.innerHTML=""
+      errnum.innerHTML=""
+      erremail.innerHTML=""
+      errpass.innerHTML=""
+      errcpass.innerHTML=""
+
+
     if (name==""){
         errname.innerHTML="please enter name"
         errname.style.color="red"
